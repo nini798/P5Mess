@@ -46,6 +46,7 @@ function run(){
             clearText();
             i++;
             addText(text[i][1]);
+            document.getElementById("choicesPanel").style.display="none";
         })
         var option2 = document.createElement("BUTTON");
         option2.innerHTML = text[i][1];
@@ -53,6 +54,8 @@ function run(){
             clearText();
             i+= 2;
             addText(text[i][1]);
+            document.getElementById("choicesPanel").style.display="none";
+            
         })
         
         document.getElementById("choicesPanel").appendChild(option1);
