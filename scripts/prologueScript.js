@@ -105,24 +105,19 @@ function run(){
         addText(text[i][1]);
         i++;
     } else if (text[i][0] == 4) {
-        console.log("now here");
         moreButton.removeEventListener("click", run);
         moreButton.addEventListener("click", function(){
             location.replace(randomLink());
         });
     } else {
-        console.log("here");
         i++;
-        console.log("I before the buttons " + i);
-        console.log(text[i]);
-        console.log(text[i+1]);
         var option1;
         if (text[i+1][0] !== 3) {
             option1 = createChoiceButton(text[i][0], text[i+1][1]);
         } else {
             option1 = createBranchButton(text[i][0], text[i+1][1]);
         }
-        
+        x
         var option2 = createChoiceButton(text[i][1], text[i+2][1]);
         i+=3;
         
