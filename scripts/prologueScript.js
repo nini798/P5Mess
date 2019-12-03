@@ -117,7 +117,6 @@ function run(){
         } else {
             option1 = createBranchButton(text[i][0], text[i+1][1]);
         }
-        x
         var option2 = createChoiceButton(text[i][1], text[i+2][1]);
         i+=3;
         
