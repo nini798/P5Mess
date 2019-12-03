@@ -71,7 +71,7 @@ button:hover {
 
 
 #diaBox {
-    background-image: url("../pictures/box.png");;
+    background-image: url("../pictures/box.png");
     position: fixed;
     width: 80%;
     border: none;
@@ -83,8 +83,25 @@ button:hover {
     /* z-index: -1; */
 }
 
+#choice01{
+    position: fixed;
+    top:390px;
+    left: 380px;
+}
+
+
+#choice02{
+    position: fixed;
+    top:390px;
+    left: 720px;
+}
+
+#character{
+
+}
+
 #choicesPanel {
-    position: absolute;
+    position: fixed;
     display: none;
     background-image: url("../pictures/choice.png");
     background-repeat: no-repeat;
